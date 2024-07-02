@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        registry = "kubeimran/vproappdock"
+        registry = "osamaalrabiah/vprofileapp"
         registryCredentials = "dockerhub"
     }
    tools {
