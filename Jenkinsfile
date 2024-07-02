@@ -5,7 +5,9 @@ pipeline {
         registry = "kubeimran/vproappdock"
         registryCredentials = "dockerhub"
     }
-
+   tools {
+        maven "maven3"
+    }
     stages {
 
         stage('BUILD') {
